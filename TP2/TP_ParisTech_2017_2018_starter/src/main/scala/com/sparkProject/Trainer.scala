@@ -46,7 +46,7 @@ object Trainer {
       ********************************************************************************/
 
     println("hello world ! from Trainer")
-    val path = "/Users/cyril/Desktop/MS BGD/P1/Spark/TP/TP3/prepared_trainingset/"
+    val path = "/TP_ParisTech_2017_2018_starter/prepared_trainingset/"
 
     val df : DataFrame = spark
       .read
